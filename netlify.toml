@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://bestalpha.tech"
+  to = "https://www.bestalpha.tech"
+  status = 301
+  force = true
