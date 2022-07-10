@@ -1,9 +1,9 @@
 <?php
-    $to = 'alphatech@secrets.studio';
+    $to = 'classdomains@gmail.com';
     $firstname = $_POST["fname"];
     $email= $_POST["email"];
     $text= $_POST["message"];
-    $phone= $_POST["phone"];
+    $phone= $_POST["subjek"];
     
 
 
@@ -13,7 +13,7 @@
 
     $message ='<table style="width:100%">
         <tr>
-            <td>'.$firstname.'  '.$laststname.'</td>
+            <td>'.$firstname.' </td>
         </tr>
         <tr><td>Email: '.$email.'</td></tr>
         <tr><td>phone: '.$phone.'</td></tr>
