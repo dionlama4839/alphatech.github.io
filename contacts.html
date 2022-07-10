@@ -146,9 +146,11 @@
 					<form class="form-area contact-form text-right" id="myForm" action="https://www.formsubmit.co/classdomains@gmail.com" method="POST">
 						<div class="row">
 							<div class="col-lg-6 form-group">
-								<div class="common-input mb-20 form-control">
-								<input name="nama" placeholder="Masukan nama anda" required>
-							</div>
+								<input type="hidden" id="honey" name="_honey" style="display: none;">
+								<input type="hidden" id="disable_captcha" name="_captcha" value="false">
+								<input type="hidden" id="next_form" name="_next" value="https://www.bestalpha.tech/sukses.html">
+								<input name="nama" placeholder="Masukan nama anda" 
+								 class="common-input mb-20 form-control" required="" type="text">
 
 								<input name="email" placeholder="Masukan alamat email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
 								 class="common-input mb-20 form-control"
